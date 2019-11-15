@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./main.css" />
     <title>Ninja|Tasker</title>
   </head>
+
   <body>
     <div id="container">
       <div id="logo"></div>
@@ -23,10 +24,12 @@
       </form>
 
       <ul>
-        <%for(let index= 0; index< list. length; index++){%>
+        <% for(let index= 0; index< list. length; index++){%>
         <li class="ninja-item"><%=list[index]%></li>
-        <%} %>
+        <% } %>
       </ul>
     </div>
+
+    <script src="./main.js"></script>
   </body>
 </html>
